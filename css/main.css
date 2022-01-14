@@ -1,0 +1,120 @@
+@font-face {
+  font-family: FatFont;
+  src: url(FatCat.ttf);
+}
+
+.module {
+  cursor: url('../img/cursor.png'), auto;	
+}
+
+body {
+  background-color: #1a1a1a;
+  cursor: url('../img/cursor.png'), auto;	
+}
+
+.my-4 {
+  color: #72ECFF;
+  text-align: center;
+  font-family: FatFont;
+  font-size: 65px;
+  letter-spacing: 6px;
+  text-shadow: 2px 2px 3px black;
+  margin-bottom: 200px;
+}
+
+.active.list-group-item {
+  background-color: #414141;
+  border-color: #414141;
+  user-select: none;
+}
+
+span.terms b {
+  color: #EC7063;
+}
+
+span.purchases b {
+  padding-right: 15px;
+}
+
+.date {
+  font-size: 14px;
+  color: #007bff;
+}
+
+.btn {
+  color: white;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #007bff;
+  cursor: url('../img/cursor.png'), auto;
+}
+
+.creditcard {
+  background-color: #1a1f71;
+}
+
+.paypal {
+  background-color: #3b7bbf;
+}
+
+.list-group {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  color: #007bff;
+}
+
+.card {
+  background-color: #16181d;
+  color: #D5DBDB;
+  user-select: none;
+}
+
+.vip-body {
+  height: 220px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.list-group-item {
+  background-color: #16181d;
+  color: white;
+  border: 1px solid #131519;
+}
+
+h5 {
+  color: #9dff89;
+}
+
+.badge-secondary {
+  background-color: #393e46;
+  color: white;
+}
+
+.image {
+  background: url("../img/bg.png") no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+}
+
+.profile-img {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+  margin-right: 5px;
+}
+
+.crop {
+  text-overflow: ellipsis;
+  word-wrap: nowrap;
+}
